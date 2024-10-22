@@ -53,14 +53,10 @@ const resultado = () => {
     />
     <br>
     <br>
-    <h1 class="resultado text-center border border-dark rounded p-5">O resultado é: {{ resultado() }} </h1>
+    <h1 class="text-center border border-dark rounded p-5">O resultado é: {{ resultado() }} </h1>
   </div>
   
 </template>
 
 <style scoped>
-.resultado {
-  max-width: 410px;
-  margin-left: 430px;
-}
 </style>
