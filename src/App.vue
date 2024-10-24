@@ -6,23 +6,23 @@
     primeiroNumero: 0,
     segundoNumero: 0,
     filtro: 'adicao',
-  })
+  });
 
   const adicao = ({ primeiroNumero, segundoNumero } = estado) => {
   return primeiroNumero + segundoNumero;
-}
+};
 
 const subtracao = ({ primeiroNumero, segundoNumero } = estado) => {
   return primeiroNumero - segundoNumero;
-}
+};
 
 const multiplicacao = ({ primeiroNumero, segundoNumero } = estado) => {
   return primeiroNumero * segundoNumero;
-}
+};
 
 const divisao = ({ primeiroNumero, segundoNumero } = estado) => {
   return primeiroNumero / segundoNumero;
-}
+};
 
 const resultado = () => {
   const {filtro} = estado;
